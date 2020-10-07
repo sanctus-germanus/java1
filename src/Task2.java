@@ -45,3 +45,4 @@ public class Task2  {
         multiplication(1528,3);
     }
 }
+   
