@@ -21,12 +21,12 @@ public class TriangleSimpleInfo {
         boolean result1 = a == b;
         boolean result2 = b == c;
         boolean result3 = c == a;
-        return result1 == result2 == result3;
+        return result1 == result2 & result2 == result3;
     }
 
     public static void main(String[] args) {
         System.out.println(maxSide(10, 10, 8));
         System.out.println(minSide(3, 3, 4));
-        System.out.println(isEquilateralTriangle(3, 4, 5));
+        System.out.println(isEquilateralTriangle(3, 5, 5));
     }
 }
