@@ -16,10 +16,11 @@ public class nnn {
         }
         else return a;
     }
-     }
-class MyFirstClass {
+
+
     public static void main(String[] args) {
         System.out.println("class это программа на Java");
     }
 }
+
 
