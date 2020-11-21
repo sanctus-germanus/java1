@@ -19,7 +19,7 @@ public class ComplexNum {
     }
 
     public String toString() {
-        return getRe() + " + " + getIm() + "i";
+        return getRe() + "+" + getIm() + "i";
     }
 
     public ComplexNum add(ComplexNum num) {
