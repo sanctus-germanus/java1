@@ -37,7 +37,7 @@ public class ComplexNum {
 
     public ComplexNum div(ComplexNum num) {
         int c = a*num.getRe()+b*num.getIm();
-        int d = b* num.getRe()+a* num.getIm();
+        int d = b* num.getRe()-a* num.getIm();
         return new ComplexNum(c/(num.getRe()* num.getRe()+ num.getIm()*num.getIm()),d/(num.getRe()* num.getRe()+ num.getIm()*num.getIm()));
     }
 }
